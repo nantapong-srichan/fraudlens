@@ -4,8 +4,8 @@ import streamlit as st
 from detector import detect_anomalies
 
 
-st.set_page_config(page_title="FraudLens", page_icon="🔎", layout="wide")
-st.title("🔎 FraudLens")
+st.set_page_config(page_title="FraudLens", layout="wide")
+st.title("FraudLens")
 st.caption("ระบบตรวจจับธุรกรรมผิดปกติแบบอธิบายได้ สำหรับการเรียนรู้ด้าน FinTech")
 
 
